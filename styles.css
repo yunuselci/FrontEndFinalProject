@@ -29,7 +29,7 @@ label.logo {
 }
 
 label.logo span{
-    color: #fa5558;
+    color: #0dcaf0;
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #fa5558;
+    background: #0dcaf0;
     transition: .5s;
     color: white;
 }
@@ -107,6 +107,8 @@ section {
 
 .store-banner{
     background-image: url("Images/storeBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .store-banner .container{
@@ -178,7 +180,7 @@ footer .container h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #f00;
+    background: #0dcaf0;
 }
 
 footer p {
@@ -210,7 +212,7 @@ footer p {
 }
 
 .social-media li a .fa {
-    color: red;
+    color: #0dcaf0;
     font-size: 25px;
 }
 
@@ -269,10 +271,15 @@ footer p {
 
 .copygright-text {
     width: 100%;
-    background: #dcdedd;
+    background: #eff3f2;
     padding: 8px 100px;
     text-align: center;
-    color: black;
+    color: #0dcaf0;
+    font-weight: 500;
+    
+}
+.copygright-text > p{
+    margin: 0;
     
 }
 /* footer end */
@@ -327,7 +334,7 @@ footer p {
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
-        color: red;
+        color: #0dcaf0;
     }
 
     nav ul {

@@ -337,6 +337,11 @@ footer p {
         color: #0dcaf0;
     }
 
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 9;
+    }
     nav ul {
         position: fixed;
         width: 100%;
@@ -346,6 +351,7 @@ footer p {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 9;
     }
 
     nav ul li {

@@ -74,7 +74,6 @@ label {
     font-size: 14px;
 }
 
-textarea,
 input{
     width: 100%;
     font-weight: 400;
@@ -84,10 +83,7 @@ input{
     margin-top: 5px;
     height: 40px;
 }
-textarea{
-    resize: none;
-}
-textarea:focus,
+
 input:focus{
     outline: none;
     border-color: #6f6df4;

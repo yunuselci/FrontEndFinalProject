@@ -78,6 +78,9 @@ section {
     background-size: cover;
     height: calc(100vh - 80px);
 }*/
+.store-front{
+    background-color: #f7fbfa;
+}
 .store-front .container {
     display: flex;
     justify-content: center;
@@ -284,6 +287,7 @@ footer p {
 }
 /* footer end */
 
+
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -328,6 +332,10 @@ footer p {
         margin-top: 20px;
         width: 100%;
     }
+    .shop-hero-image{
+        display: none;
+    }
+    
 
 }
 
@@ -373,4 +381,6 @@ footer p {
     #check:checked~ul {
         left: 0;
     }
+    
+    
 }

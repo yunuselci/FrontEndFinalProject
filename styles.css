@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -36,18 +34,18 @@ a {
     color: #0dcaf0;
 }
 
-.navigation  ul {
+.navigation ul {
     float: right;
     margin-right: 20px;
 }
 
-.navigation  ul li {
+.navigation ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
 
-.navigation  ul li a {
+.navigation ul li a {
     color: #999;
     font-size: 17px;
     padding: 7px 13px;
@@ -55,7 +53,8 @@ a {
     text-transform: uppercase;
 }
 
-.navigation a.active, a:hover {
+.navigation a.active,
+a:hover {
     background: #0dcaf0;
     transition: .5s;
     color: #ffffff;
@@ -287,6 +286,7 @@ footer p {
 
 /* footer end */
 
+/* products */
 .products {
     transition: all 0.4s cubic-bezier(0, 1.57, .67, 1.18);
 }
@@ -421,6 +421,99 @@ footer p {
     margin-bottom: 5px;
 }
 
+/* produtcs end */
+
+/* Example Product */
+
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.single-product {
+    margin-top: 80px;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.single-product .col-2 img {
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product input{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color: #ff523b;
+    margin-left: 10px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: #563434;
+}
 
 
 

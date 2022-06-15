@@ -28,102 +28,49 @@
         </ul>
     </div>
     <!-- Navbar End -->
-        
-    <div class = "card-wrapper">
-        <div class = "card">
-          <!-- card left -->
-          <div class = "product-imgs">
-            <div class = "img-display">
-              <div class = "img-showcase">
-                <img src = "shoes_images/shoe_1.jpg" alt = "shoe image">
-                <img src = "shoes_images/shoe_2.jpg" alt = "shoe image">
-                <img src = "shoes_images/shoe_3.jpg" alt = "shoe image">
-                <img src = "shoes_images/shoe_4.jpg" alt = "shoe image">
-              </div>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/shoe1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Images/shoe2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/shoe3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/shoe4.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/shoe5.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
             </div>
-            <div class = "img-select">
-              <div class = "img-item">
-                <a href = "#" data-id = "1">
-                  <img src = "shoes_images/shoe_1.jpg" alt = "shoe image">
-                </a>
-              </div>
-              <div class = "img-item">
-                <a href = "#" data-id = "2">
-                  <img src = "shoes_images/shoe_2.jpg" alt = "shoe image">
-                </a>
-              </div>
-              <div class = "img-item">
-                <a href = "#" data-id = "3">
-                  <img src = "shoes_images/shoe_3.jpg" alt = "shoe image">
-                </a>
-              </div>
-              <div class = "img-item">
-                <a href = "#" data-id = "4">
-                  <img src = "shoes_images/shoe_4.jpg" alt = "shoe image">
-                </a>
-              </div>
+            <div class="col2">
+                <p>Home / T-Shirts</p>
+                <h1>T-Shirts by Enjoy Dude</h1>
+                <h4>$29.99</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>LARGE</option>
+                    <option>MEDIUM</option>
+                    <option>SMALL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Details<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut alias atque vel explicabo
+                    maxime quas sunt. Sapiente illum illo nam molestiae doloribus cum! Eveniet dolorum doloribus
+                    voluptatibus dolore iusto.</p>
             </div>
-          </div>
-          <!-- card right -->
-          <div class = "product-content">
-            <h2 class = "product-title">nike shoes</h2>
-            <a href = "#" class = "product-link">visit nike store</a>
-            <div class = "product-rating">
-              <i class = "fas fa-star"></i>
-              <i class = "fas fa-star"></i>
-              <i class = "fas fa-star"></i>
-              <i class = "fas fa-star"></i>
-              <i class = "fas fa-star-half-alt"></i>
-              <span>4.7(21)</span>
-            </div>
-  
-            <div class = "product-price">
-              <p class = "last-price">Old Price: <span>$257.00</span></p>
-              <p class = "new-price">New Price: <span>$249.00 (5%)</span></p>
-            </div>
-  
-            <div class = "product-detail">
-              <h2>about this item: </h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
-              <ul>
-                <li>Color: <span>Black</span></li>
-                <li>Available: <span>in stock</span></li>
-                <li>Category: <span>Shoes</span></li>
-                <li>Shipping Area: <span>All over the world</span></li>
-                <li>Shipping Fee: <span>Free</span></li>
-              </ul>
-            </div>
-  
-            <div class = "purchase-info">
-              <input type = "number" min = "0" value = "1">
-              <button type = "button" class = "btn">
-                Add to Cart <i class = "fas fa-shopping-cart"></i>
-              </button>
-              <button type = "button" class = "btn">Compare</button>
-            </div>
-  
-            <div class = "social-links">
-              <p>Share At: </p>
-              <a href = "#">
-                <i class = "fab fa-facebook-f"></i>
-              </a>
-              <a href = "#">
-                <i class = "fab fa-twitter"></i>
-              </a>
-              <a href = "#">
-                <i class = "fab fa-instagram"></i>
-              </a>
-              <a href = "#">
-                <i class = "fab fa-whatsapp"></i>
-              </a>
-              <a href = "#">
-                <i class = "fab fa-pinterest"></i>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
 
     <!-- Footer Section -->
     <div class="footer-section">
@@ -183,6 +130,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        for (let i = 0; i < 4; i++) {
+            SmallImg[i].onclick = function () {
+                ProductImg.src = SmallImg[i].src;
+            }
+        }
+
+    </script>
 </body>
 
 </html>

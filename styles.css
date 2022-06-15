@@ -337,7 +337,7 @@ footer p {
 }
 
 .box .info .subInfo .price {
-    color: #ff3300;
+    color: #000;
     font-size: 20px;
 
 }
@@ -349,7 +349,7 @@ footer p {
 }
 
 .box .info .subInfo .stars i {
-    color: orange;
+    color: #000;
     font-size: 17px;
 }
 
@@ -425,94 +425,158 @@ footer p {
 
 /* Example Product */
 
-.small-container {
-    max-width: 1000px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 20px;
+.exam-prod-title{
+    text-align: center;
+    color: #fff;
 }
 
-.row {
+.example-product img {
+    width: 100%;
+    display: block;
+}
+
+.example-product {
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.single-product {
-    margin-top: 80px;
+.example-product .container {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
-.small-img-row {
-    display: flex;
-    justify-content: space-around;
+.example-product-div {
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
 }
 
-.col-2 img {
-    max-width: 100%;
-    padding: 50px 0;
-}
-
-.small-img-col {
-    flex-basis: 24%;
-    cursor: pointer;
-}
-
-.single-product .col-2 img {
-    padding: 0;
-}
-
-.single-product .col-2 {
+.example-product-left-div {
     padding: 20px;
 }
 
-.col-2{
-    flex-basis: 50%;
-    min-width: 300px;
+.example-product-right-div {
+    padding: 20px;
 }
 
-.col-2 h1{
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
+.img-container img {
+    width: 350px;
+    margin: 0 auto;
 }
 
-.single-product select{
+.alt-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.alt-images div {
+    border: 2px solid rgb(13, 202, 240);
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border-color: rgb(255, 255, 255) !important;
+}
+
+.alt-images div:hover {
+    border-color: rgb(255, 255, 255);
+}
+
+.alt-images div img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.example-product-right-div span {
     display: block;
-    padding: 10px;
-    margin-top: 20px;
 }
 
-.single-product h4{
-    margin: 20px 0;
-    font-size: 22px;
-    font-weight: bold;
+.product-name {
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.9;
 }
-.single-product input{
-    width: 50px;
-    height: 50px;
-    padding-left: 10px;
-    font-size: 20px;
-    margin-right: 10px;
-    border: 1px solid #ff523b;
+
+.product-price {
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
 }
-input:focus{
-    outline: none;
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
 }
-.single-product .fa{
-    color: #ff523b;
-    margin-left: 10px;
+
+.product-rating span {
+    margin-right: 6px;
 }
-.btn{
+
+.product-description {
+    font-weight: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 22px;
+}
+
+.btn-groups {
+    margin-top: 22px;
+}
+
+.btn-groups button {
     display: inline-block;
-    background: #ff523b;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
     color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.btn:hover{
-    background: #563434;
+
+.btn-groups button .fas {
+    margin-right: 8px;
+}
+
+.add-cart-btn {
+    background-color: rgb(13, 202, 240);
+    border: 2px solid #0dcaf0;
+    margin-right: 8px;
+}
+
+.add-cart-btn:hover {
+    background-color: #fff;
+    color: #0dcaf0;
+}
+
+.buy-now-btn {
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.buy-now-btn:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 
@@ -586,6 +650,20 @@ input:focus{
         height: 100%;
     }
 
+    .example-product-div{
+        grid-template-columns: 100%;
+    }
+    .example-product-right-div{
+        text-align: center;
+    }
+    .product-rating{
+        justify-content: center;
+    }
+    .product-description{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }
 
@@ -635,4 +713,8 @@ input:focus{
     }
 
 
+    .btn-groups button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }

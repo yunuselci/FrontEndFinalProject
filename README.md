@@ -1,0 +1,6 @@
+![screencapture-127-0-0-1-5500-index-html-2022-06-16-02_06_08](https://user-images.githubusercontent.com/56027479/173956957-aa7df51d-3dc8-4e19-aeb0-fa8bef407c47.png)
+![screencapture-127-0-0-1-5500-cart-html-2022-06-16-02_08_33](https://user-images.githubusercontent.com/56027479/173956962-4cb3b114-49e2-46c8-a372-e5759a844151.png)
+![screencapture-file-C-Users-YUNUS-Downloads-FrontEndFinalProject-main-FrontEndFinalProject-main-product-html-2022-06-16-02_08_16](https://user-images.githubusercontent.com/56027479/173956964-d0b606d9-54d0-4836-ba12-08f25b3a7cb7.png)
+![screencapture-127-0-0-1-5500-Auth-signup-html-2022-06-16-02_06_47](https://user-images.githubusercontent.com/56027479/173956969-e5a4e686-288e-417b-be8d-b76b0b60cb48.png)
+![screencapture-127-0-0-1-5500-Auth-signin-html-2022-06-16-02_06_36](https://user-images.githubusercontent.com/56027479/173956971-d2f22cb8-329f-4b80-bc58-675b4eddcfad.png)
+![screencapture-127-0-0-1-5500-stores-html-2022-06-16-02_06_25](https://user-images.githubusercontent.com/56027479/173956976-5eab67a7-5cc9-4c6a-b74e-0904d16eb04a.png)

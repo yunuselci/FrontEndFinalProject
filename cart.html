@@ -31,51 +31,119 @@
     </div>
     <!-- Navbar End -->
     <!-- Navbar Section End -->
-   
+
     <div class="cart-design">
-		<h1>Sepetiniz</h1>
-		<div class="cart-container">
-			<div class="cart-products">
-				<div class="cart-prod">
-					<img src="Images/1.jpg">
-					<div class="cart-description">
-						<h3>Araba Figürü</h3>
-						<h4>Fiyat: 39.90₺</h4>
-						<p class="unit">Miktar: <input name="" type="number" value="2"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Kaldır</span></p>
-					</div>
-				</div>
-				<div class="cart-prod">
-					<img src="Images/4.jpg">
-					<div class="cart-description">
-						<h3>Sandalye</h3>
-						<h4>Fiyat: 19.90₺</h4>
-						<p class="unit">Miktar: <input name="" type="number" value="1"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Kaldır</span></p>
-					</div>
-				</div>
-				<div class="cart-prod">
-					<img src="Images/5.jpg">
-					<div class="cart-description">
-						<h3>Güneş Gözlüğü</h3>
-						<h4>Fiyat: 49.90₺</h4>
-						<p class="unit">Miktar: <input name="" type="number" value="0"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Kaldır</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="cart-right-div">
-				<p><span>Aratoplam</span> <span>109.70₺</span></p>
-				<hr>
-				<p><span>Kdv (18%)</span> <span>129.44₺</span></p>
-				<hr>
-				<p><span>Kargo</span> <span>Ücretsiz!</span></p>
-				<hr>
-				<p><span>Toplam</span> <span>129.44₺</span></p><a href="#"><i class="fa fa-shopping-cart"></i>Hemen Satın Al</a>
-			</div>
-		</div>
-	</div>
-    
+        <h1>Sepetiniz</h1>
+        <div class="cart-container">
+            <div class="cart-products">
+                <div class="cart-prod">
+                    <img src="Images/1.jpg">
+                    <div class="cart-description">
+                        <h3>Araba Figürü</h3>
+                        <h4>Fiyat: 39.90₺</h4>
+                        <p class="unit">Miktar: <input name="" type="number" value="2"></p>
+                        <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span
+                                class="btn2">Kaldır</span></p>
+                    </div>
+                </div>
+                <div class="cart-prod">
+                    <img src="Images/4.jpg">
+                    <div class="cart-description">
+                        <h3>Sandalye</h3>
+                        <h4>Fiyat: 19.90₺</h4>
+                        <p class="unit">Miktar: <input name="" type="number" value="1"></p>
+                        <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span
+                                class="btn2">Kaldır</span></p>
+                    </div>
+                </div>
+                <div class="cart-prod">
+                    <img src="Images/5.jpg">
+                    <div class="cart-description">
+                        <h3>Güneş Gözlüğü</h3>
+                        <h4>Fiyat: 49.90₺</h4>
+                        <p class="unit">Miktar: <input name="" type="number" value="0"></p>
+                        <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span
+                                class="btn2">Kaldır</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-right-div">
+                <p><span>Aratoplam</span> <span>109.70₺</span></p>
+                <hr>
+                <p><span>Kdv (18%)</span> <span>129.44₺</span></p>
+                <hr>
+                <p><span>Kargo</span> <span>Ücretsiz!</span></p>
+                <hr>
+                <p><span>Toplam</span> <span>129.44₺</span></p><a href="#checkout"><i class="fa fa-shopping-cart"></i>Hemen
+                    Satın Al</a>
+            </div>
+        </div>
+        <hr>
+        <form id="checkout">
+            <div class="row">
+                <div class="col">
+                    <label for="email" class="form-label">İsminiz:</label>
+                    <input type="text" class="form-control" placeholder="Ör. Yunus" name="first-name">
+                </div>
+                <div class="col">
+                    <label for="email" class="form-label">Soy isminiz:</label>
+                    <input type="text" class="form-control" placeholder="Ör. Elçi" name="last-name">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <label for="email" class="form-label">E-Postanız:</label>
+                    <input type="email" class="form-control" placeholder="Ör. örnek@gmail.com" name="email">
+                </div>
+                <div class="col">
+                    <label for="email" class="form-label">Telefon Numaranız: </label>
+                    <input type="text" class="form-control" placeholder="Ör. +90 538 345 65 06" name="tel">
+                </div>
+            </div>
+            <br>
+            <label for="adress">Adresiniz:</label>
+            <textarea class="form-control" rows="2" placeholder="542. Sokak İstanbul" id="adress" name="text"></textarea>
+            <br>
+            <h3>Ödeme</h3>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa fa-2xl" style="color:navy;"></i>
+              <i class="fa fa-cc-amex fa-2xl" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard fa-2xl" style="color:red;"></i>
+              <i class="fa fa-cc-discover fa-2xl" style="color:orange;"></i>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="cc-name" class="form-label">Kredi Kartı Üzerindeki İsim:</label>
+                <input type="text" class="form-control" placeholder="Ör. Yunus Elçi" name="cc-name">
+              </div>
+            <div class="row">
+                <div class="col">
+                    <label for="cc-number" class="form-label">Kredi Kartı Numaranız:</label>
+                    <input type="text" class="form-control" placeholder="1111-2222-3333-4444" name="cc-number">
+                </div>
+                <div class="col">
+                    <label for="cc-exp" class="form-label">Son Kullanma Tarihi</label>
+                    <input type="text" class="form-control" placeholder="MM/YYYY" name="cc-exp">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <label for="cc-csc" class="form-label">CVV2:</label>
+                    <input type="password" class="form-control" placeholder="123" name="cc-csc">
+                </div>
+                <div class="col">
+                    <label for="cc-type" class="form-label">Kart Tipi:</label>
+                    <input type="text" class="form-control" placeholder="VISA" name="cc-type">
+                </div>
+            </div>
+            <br>
+            <button type="button" class="btn btn-dark btn-lg">Satın Al</button>
+
+        </form>
+    </div>
+
     <!-- Footer Section -->
     <div class="footer-section">
         <footer>

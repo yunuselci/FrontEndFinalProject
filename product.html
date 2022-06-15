@@ -17,20 +17,22 @@
     <div class="navigation">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
+            <i class="fa-solid fa-cart-shopping fa-sm"></i>
             <i class="fas fa-bars"></i>
         </label>
         <label class="logo">i<span>S</span>ot<span>S</span>tore</label>
         <ul>
-            <li><a href="index.html">Anasayfa</a></li>
+            <li><a class="active" href="index.html">Anasayfa</a></li>
             <li><a href="stores.html">Örnek Mağaza</a></li>
             <li><a href="Auth/signin.html">Giriş Yap</a></li>
             <li><a href="Auth/signup.html">Kayıt Ol</a></li>
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
         </ul>
     </div>
+    <!-- Navbar End -->
     <div class="exam-prod-title">
         <p>Example Product</p>
     </div>
-    <!-- Navbar End -->
     <div class="example-product">
         <div class="container">
             <div class="example-product-div">
@@ -46,7 +48,7 @@
                     </div>
                 </div>
                 <div class="example-product-right-div">
-                    <span class="product-name">(New) Ayakkabı - Kadınlar İçin</span>
+                    <span class="product-name">(Yeni) Ayakkabı - Kadınlar İçin</span>
                     <span class="product-price"> 299.90 ₺</span>
                     <div class="product-rating">
                         <span><i class="fas fa-star"></i></span>
@@ -59,8 +61,39 @@
                     <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi
                         ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis
                         quidem exercitationem voluptas.</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Taban Materyali</th>
+                                <th scope="col">Desen</th>
+                                <th scope="col">Topuk Yüksekliği</th>
+                                <th scope="col">Ürün Tipi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hazır Taban</td>
+                                <td>Düz</td>
+                                <td>Kısa Topuk</td>
+                                <td>Günlük</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Marka</th>
+                                <th scope="col">Sezon</th>
+                                <th scope="col">Burun Tipi</th>
+                                <th scope="col">Cinsiyet</th>
+                            </tr>
+                            <tr>
+                                <td>Diğer</td>
+                                <td>İlkbahar-Yaz</td>
+                                <td>Burnu Kapalı</td>
+                                <td>Kadın</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <div class="btn-groups">
-                        <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Sepete Ekle</button>
+                        <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Sepete
+                            Ekle</button>
                         <button type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>Hemen Satın Al</button>
                     </div>
                 </div>
@@ -78,7 +111,7 @@
                 <h3 class="title"><a href="product.html">Product 1</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -101,10 +134,10 @@
                 <img src="Images/shoe1.jpg" alt="">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 2</a></h3>
+                <h3 class="title"><a href="product.html">Ayakkabı</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        299.90₺/- <span>499₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -130,7 +163,7 @@
                 <h3 class="title"><a href="product.html">Product 3</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -155,7 +188,7 @@
                 <h3 class="title"><a href="product.html">Product 4</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -181,7 +214,7 @@
                 <h3 class="title"><a href="product.html">Product 5</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -207,7 +240,7 @@
                 <h3 class="title"><a href="product.html">Product 6</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -233,7 +266,7 @@
                 <h3 class="title"><a href="product.html">Product 7</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -259,7 +292,7 @@
                 <h3 class="title"><a href="product.html">Product 8</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000TL/- <span>1400TL/-</span>
+                        1000₺/- <span>1400₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>

@@ -298,6 +298,7 @@ footer p {
     flex-wrap: wrap;
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .box {
@@ -425,7 +426,7 @@ footer p {
 
 /* Example Product */
 
-.exam-prod-title{
+.exam-prod-title {
     text-align: center;
     color: #fff;
 }
@@ -480,7 +481,7 @@ footer p {
 }
 
 .alt-images div {
-    border: 2px solid rgb(13, 202, 240);
+    border: 2px solid rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 3px;
     margin: 0 4px 8px 4px;
@@ -490,11 +491,11 @@ footer p {
 }
 
 .active {
-    border-color: rgb(255, 255, 255) !important;
+    border-color: rgb(13, 202, 240) !important;
 }
 
 .alt-images div:hover {
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(13, 202, 240);
 }
 
 .alt-images div img {
@@ -650,16 +651,19 @@ footer p {
         height: 100%;
     }
 
-    .example-product-div{
+    .example-product-div {
         grid-template-columns: 100%;
     }
-    .example-product-right-div{
+
+    .example-product-right-div {
         text-align: center;
     }
-    .product-rating{
+
+    .product-rating {
         justify-content: center;
     }
-    .product-description{
+
+    .product-description {
         max-width: 400px;
         margin-right: auto;
         margin-left: auto;
@@ -713,7 +717,7 @@ footer p {
     }
 
 
-    .btn-groups button{
+    .btn-groups button {
         width: 100%;
         margin-bottom: 10px;
     }

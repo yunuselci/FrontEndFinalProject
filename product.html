@@ -20,9 +20,9 @@
             <i class="fa-solid fa-cart-shopping fa-sm"></i>
             <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">i<span>S</span>ot<span>S</span>tore</label>
+        <a class="none" href="index.html"><label class="logo">i<span>S</span>ot<span>S</span>tore</label></a>
         <ul>
-            <li><a class="active" href="index.html">Anasayfa</a></li>
+            <li><a href="index.html">Anasayfa</a></li>
             <li><a href="stores.html">Örnek Mağaza</a></li>
             <li><a href="Auth/signin.html">Giriş Yap</a></li>
             <li><a href="Auth/signup.html">Kayıt Ol</a></li>
@@ -92,9 +92,9 @@
                         </tbody>
                     </table>
                     <div class="btn-groups">
-                        <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Sepete
+                        <button onclick="window.location='cart.html';" type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Sepete
                             Ekle</button>
-                        <button type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>Hemen Satın Al</button>
+                        <button onclick="window.location='cart.html#checkout';" type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>Hemen Satın Al</button>
                     </div>
                 </div>
             </div>
@@ -105,13 +105,13 @@
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="Images/1.jpg" alt="">
+                <img src="Images/1.jpg" alt="araba_figür">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 1</a></h3>
+                <h3 class="title"><a href="product.html">Araba Figürü</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        39.90₺/- <span>49.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 
@@ -131,7 +131,7 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/shoe1.jpg" alt="">
+                <img src="Images/shoe1.jpg" alt="shoe">
             </div>
             <div class="info">
                 <h3 class="title"><a href="product.html">Ayakkabı</a></h3>
@@ -149,7 +149,7 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 
@@ -157,13 +157,13 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/3.jpg" alt="">
+                <img src="Images/3.jpg" alt="saksida_cicek">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 3</a></h3>
+                <h3 class="title"><a href="product.html">Saksıda Çiçek</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        59.90₺/- <span>69.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -175,20 +175,20 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
             </div>
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/4.jpg" alt="">
+                <img src="Images/4.jpg" alt="sandalye">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 4</a></h3>
+                <h3 class="title"><a href="product.html">Sandalye</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        19.90₺/- <span>99.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -200,33 +200,7 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
-                <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
-                <a href="product.html" style="--i:3;" class="fas fa-search"></a>
-
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="Images/5.jpg" alt="">
-            </div>
-            <div class="info">
-                <h3 class="title"><a href="product.html">Product 5</a></h3>
-                <div class="subInfo">
-                    <div class="price">
-                        1000₺/- <span>1400₺/-</span>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 
@@ -234,13 +208,13 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/6.jpg" alt="">
+                <img src="Images/5.jpg" alt="gunes_gozlugu">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 6</a></h3>
+                <h3 class="title"><a href="product.html">Güneş Gözlüğü</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        49.90₺/- <span>69.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -252,7 +226,7 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 
@@ -260,13 +234,13 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/7.jpg" alt="">
+                <img src="Images/6.jpg" alt="retro">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 7</a></h3>
+                <h3 class="title"><a href="product.html">Retro Fotoğraf Makinesi</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        290.90₺/- <span>849.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -278,7 +252,7 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 
@@ -286,13 +260,13 @@
         </div>
         <div class="box">
             <div class="image">
-                <img src="Images/8.jpg" alt="">
+                <img src="Images/7.jpg" alt="ayakkabi">
             </div>
             <div class="info">
-                <h3 class="title"><a href="product.html">Product 8</a></h3>
+                <h3 class="title"><a href="product.html">Erkek Mavi Ayakkabı</a></h3>
                 <div class="subInfo">
                     <div class="price">
-                        1000₺/- <span>1400₺/-</span>
+                        149.90₺/- <span>279.90₺/-</span>
                     </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -304,7 +278,33 @@
                 </div>
             </div>
             <div class="overlay">
-                <a href="product.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
+                <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
+                <a href="product.html" style="--i:3;" class="fas fa-search"></a>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="Images/8.jpg" alt="saat">
+            </div>
+            <div class="info">
+                <h3 class="title"><a href="product.html">Kol Saati</a></h3>
+                <div class="subInfo">
+                    <div class="price">
+                        639.90₺/- <span>790.90₺/-</span>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+                <a href="cart.html" style="--i:1;" class="fas fa-shopping-cart"></a>
                 <a href="product.html" style="--i:2;" class="fas fa-heart"></a>
                 <a href="product.html" style="--i:3;" class="fas fa-search"></a>
 

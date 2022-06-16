@@ -53,7 +53,8 @@ a {
     text-transform: uppercase;
 }
 
-.navigation .none.active,.none:hover{
+.navigation .none.active,
+.none:hover {
     background: #f7fbfa;
 }
 
@@ -888,12 +889,12 @@ footer p {
     }
 }
 
-@media (max-width:390px){
+@media (max-width:390px) {
     .navigation label.logo {
         padding: 0 20px;
     }
 
-    .btn-area{
+    .btn-area {
         padding: 5px 5px;
     }
 }

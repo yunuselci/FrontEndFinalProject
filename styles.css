@@ -892,4 +892,8 @@ footer p {
     .navigation label.logo {
         padding: 0 20px;
     }
+
+    .btn-area{
+        padding: 5px 5px;
+    }
 }
